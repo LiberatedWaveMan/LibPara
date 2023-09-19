@@ -191,7 +191,7 @@
 			revivable = FALSE
 		else if(ismachineperson(src))
 			revivable = TRUE
-		else if(timeofdeath && is_revivable())
+		else if(timeofdeath && (round(world.time - timeofdeath) < DEFIB_TIME_LIMIT))
 			revivable = TRUE
 
 		if(revivable)

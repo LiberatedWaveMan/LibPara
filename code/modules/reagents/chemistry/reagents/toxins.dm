@@ -35,7 +35,7 @@
 
 /datum/reagent/minttoxin/on_mob_life(mob/living/M)
 	if(HAS_TRAIT(M, TRAIT_FAT))
-		M.inflate_gib()
+		M.gib()
 	return ..()
 
 /datum/reagent/slimejelly
@@ -81,6 +81,7 @@
 	description = "A corruptive toxin produced by slimes."
 	reagent_state = LIQUID
 	color = "#13BC5E" // rgb: 19, 188, 94
+	can_synth = FALSE
 	taste_description = "shadows"
 
 /datum/reagent/slimetoxin/on_mob_life(mob/living/M)
@@ -100,6 +101,7 @@
 	description = "An advanced corruptive toxin produced by slimes."
 	reagent_state = LIQUID
 	color = "#13BC5E" // rgb: 19, 188, 94
+	can_synth = FALSE
 	taste_description = "slime"
 
 /datum/reagent/aslimetoxin/reaction_mob(mob/living/M, method=REAGENT_TOUCH, volume)
@@ -207,6 +209,7 @@
 	reagent_state = LIQUID
 	color = "#7DFF00"
 	taste_description = "slime"
+	can_synth = FALSE
 
 /datum/reagent/stable_mutagen/on_new(data)
 	..()
@@ -456,6 +459,7 @@
 	drink_icon ="beerglass"
 	drink_name = "Beer glass"
 	drink_desc = "A freezing pint of beer"
+	can_synth = FALSE
 	taste_description = "beer"
 	taste_description = "piss water"
 
@@ -487,6 +491,7 @@
 	color = "#CF3600"
 	metabolization_rate = 0.1
 	penetrates_skin = TRUE
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/polonium/on_mob_life(mob/living/M)
@@ -610,6 +615,7 @@
 	color = "#CF3600"
 	metabolization_rate = 0.2
 	overdose_threshold = 40
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/venom/on_mob_life(mob/living/M)
@@ -735,6 +741,7 @@
 	description = "A highly potent cardiac poison - can kill within minutes."
 	reagent_state = LIQUID
 	color = "#7F10C0"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/initropidril/on_mob_life(mob/living/M)
@@ -799,6 +806,7 @@
 	reagent_state = LIQUID
 	color = "#5F8BE1"
 	metabolization_rate = 0.7
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/sodium_thiopental/on_mob_life(mob/living/M)
@@ -828,6 +836,7 @@
 	color = "#646EA0"
 	metabolization_rate = 0.8
 	penetrates_skin = TRUE
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/ketamine/on_mob_life(mob/living/M)
@@ -921,6 +930,7 @@
 	reagent_state = LIQUID
 	color = "#C2D8CD"
 	metabolization_rate = 0.05
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/coniine/on_mob_life(mob/living/M)
@@ -936,6 +946,7 @@
 	reagent_state = LIQUID
 	color = "#191919"
 	metabolization_rate = 0.1
+	can_synth = FALSE
 	penetrates_skin = TRUE
 	taste_mult = 0
 
@@ -1290,6 +1301,7 @@
 	description = "An advanced corruptive toxin produced by something terrible."
 	reagent_state = LIQUID
 	color = "#5EFF3B" //RGB: 94, 255, 59
+	can_synth = FALSE
 	taste_description = "decay"
 
 /datum/reagent/gluttonytoxin/reaction_mob(mob/living/L, method=REAGENT_TOUCH, reac_volume)

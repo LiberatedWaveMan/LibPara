@@ -31,10 +31,6 @@
 	name = "Chips"
 	icon_state = "chips"
 
-/obj/item/trash/twimsts
-	name = "Twimsts"
-	icon_state = "twimsts"
-
 /obj/item/trash/popcorn
 	name = "Popcorn"
 	icon_state = "popcorn"

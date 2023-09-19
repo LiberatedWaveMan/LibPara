@@ -172,7 +172,7 @@
 	if(isliving(target))
 		var/mob/living/L = target
 		L.visible_message("<span class='danger'>[L] explodes!</span>")
-		L.quick_explode_gib()
+		L.gib()
 
 /obj/item/projectile/beam/laser/detective
 	name = "energy revolver shot"

@@ -237,7 +237,7 @@
 	desc = "An additional 20-round .45 magazine for use in the C-20r submachine gun. These bullets pack a lot of punch that can knock most targets down, but do limited overall damage."
 	reference = "45"
 	item = /obj/item/ammo_box/magazine/smgm45
-	cost = 15
+	cost = 10
 	uplinktypes = list(UPLINK_TYPE_NUCLEAR, UPLINK_TYPE_SST)
 
 /datum/uplink_item/ammo/smg_ammobag
@@ -245,7 +245,7 @@
 	desc = "A duffel bag filled with enough .45 ammo to supply an entire team, at a discounted price."
 	reference = "45ADB"
 	item = /obj/item/storage/backpack/duffel/syndie/smg
-	cost = 105 // Normally 150, so 30% off
+	cost = 70 // normally 100
 	uplinktypes = list(UPLINK_TYPE_NUCLEAR, UPLINK_TYPE_SST)
 
 /datum/uplink_item/ammo/carbine
@@ -282,7 +282,7 @@
 	surplus = 0
 
 /datum/uplink_item/ammo/sniper
-	cost = 15
+	cost = 20
 	uplinktypes = list(UPLINK_TYPE_NUCLEAR, UPLINK_TYPE_SST)
 
 /datum/uplink_item/ammo/sniper/basic
@@ -297,13 +297,14 @@
 	Able to heavily damage objects, and delimb people."
 	reference = "50A"
 	item = /obj/item/ammo_box/magazine/sniper_rounds/antimatter
-	cost = 30
+	cost = 25
 
 /datum/uplink_item/ammo/sniper/soporific
 	name = "Sniper - .50 Soporific Magazine"
 	desc = "A 3-round magazine of soporific ammo designed for use with .50 sniper rifles. Put your enemies to sleep today!"
 	reference = "50S"
 	item = /obj/item/ammo_box/magazine/sniper_rounds/soporific
+	cost = 15
 
 /datum/uplink_item/ammo/sniper/haemorrhage
 	name = "Sniper - .50 Haemorrhage Magazine"
@@ -318,7 +319,7 @@
 			Can pierce walls and multiple enemies."
 	reference = "50P"
 	item = /obj/item/ammo_box/magazine/sniper_rounds/penetrator
-	cost = 20
+	cost = 25
 
 /datum/uplink_item/ammo/bioterror
 	name = "Box of Bioterror Syringes"

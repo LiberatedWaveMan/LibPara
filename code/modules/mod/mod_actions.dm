@@ -49,7 +49,6 @@
 	if(!ready && left_click)
 		ready = TRUE
 		button_icon_state = "activate-ready"
-		UpdateButtonIcon()
 		addtimer(CALLBACK(src, PROC_REF(reset_ready)), 3 SECONDS)
 		return
 	var/obj/item/mod/control/mod = target
@@ -60,7 +59,6 @@
 /datum/action/item_action/mod/activate/proc/reset_ready()
 	ready = FALSE
 	button_icon_state = initial(button_icon_state)
-	UpdateButtonIcon()
 
 /datum/action/item_action/mod/module
 	name = "Toggle Module"

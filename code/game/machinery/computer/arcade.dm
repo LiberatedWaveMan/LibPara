@@ -52,8 +52,7 @@
 	name = "arcade machine"
 	desc = "Does not support Pinball."
 	icon = 'icons/obj/computer.dmi'
-	icon_state = "battle_arcade"
-	icon_screen = "battle"
+	icon_state = "arcade"
 	circuit = /obj/item/circuitboard/arcade/battle
 	var/enemy_name = "Space Villain"
 	var/temp = "Winners Don't Use Spacedrugs" //Temporary message, for attack messages, etc
@@ -282,7 +281,6 @@
 	name = "The Orion Trail"
 	desc = "Learn how our ancestors got to Orion, and have fun in the process!"
 	icon_state = "arcade"
-	icon_screen = "orion"
 	circuit = /obj/item/circuitboard/arcade/orion_trail
 	var/busy = FALSE //prevent clickspam that allowed people to ~speedrun~ the game.
 	var/engine = 0

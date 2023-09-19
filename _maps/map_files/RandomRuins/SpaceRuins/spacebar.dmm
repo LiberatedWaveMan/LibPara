@@ -27,12 +27,12 @@
 /turf/simulated/floor/plating,
 /area/ruin/space/powered)
 "ag" = (
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "ah" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "ai" = (
 /turf/simulated/mineral,
@@ -139,7 +139,7 @@
 /area/ruin/space/powered/bar)
 "aI" = (
 /obj/effect/decal/remains/human,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "aJ" = (
 /turf/simulated/wall,
@@ -226,7 +226,7 @@
 /obj/item/scalpel,
 /obj/structure/table,
 /obj/item/wirecutters,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "aZ" = (
 /obj/item/radio/beacon,
@@ -283,7 +283,7 @@
 /area/ruin/space/powered/bar)
 "bh" = (
 /obj/item/stack/ore/glass,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "bi" = (
 /obj/machinery/teleport/station,
@@ -291,7 +291,7 @@
 /area/ruin/space/powered/bar)
 "bj" = (
 /obj/item/stack/ore/glass,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "bk" = (
 /turf/simulated/floor/plasteel{
@@ -329,7 +329,7 @@
 /area/ruin/space/powered)
 "bq" = (
 /obj/machinery/light,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "br" = (
 /turf/template_noop,
@@ -373,17 +373,11 @@
 /obj/item/id_decal/gold,
 /obj/item/screwdriver,
 /obj/item/toy/plushie/carpplushie/gold,
-/turf/simulated/floor/plating/asteroid/ancient,
-/area/space/nearstation)
-"eC" = (
-/obj/item/stack/ore/bluespace_crystal/refined,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "eG" = (
 /obj/effect/landmark/damageturf,
-/obj/item/stack/cable_coil{
-	amount = 1
-	},
+/obj/item/stack/cable_coil,
 /turf/simulated/floor/plating,
 /area/ruin/space/powered/bar)
 "fg" = (
@@ -395,9 +389,9 @@
 /area/ruin/space/powered/bar)
 "gy" = (
 /obj/item/stack/cable_coil{
-	amount = 1
+	amount = 5
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "gM" = (
 /obj/structure/marker_beacon/dock_marker/collision,
@@ -461,7 +455,7 @@
 /area/ruin/space/powered/bar)
 "lS" = (
 /obj/item/restraints/handcuffs/cable/red,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "mb" = (
 /obj/structure/table/wood,
@@ -471,10 +465,7 @@
 "mu" = (
 /obj/structure/bed/roller,
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating/asteroid/ancient,
-/area/space/nearstation)
-"oJ" = (
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "pb" = (
 /obj/item/stack/tile/mineral,
@@ -495,7 +486,7 @@
 /obj/machinery/atmospherics/portable/canister/air{
 	filled = 1
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "rQ" = (
 /obj/structure/chair/stool{
@@ -560,7 +551,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "wy" = (
 /obj/effect/landmark/damageturf,
@@ -701,7 +692,7 @@
 	dir = 1
 	},
 /obj/item/stack/ore/glass,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "FY" = (
 /obj/machinery/reagentgrinder,
@@ -711,9 +702,9 @@
 "Gv" = (
 /obj/item/pickaxe,
 /obj/item/stack/cable_coil{
-	amount = 1
+	amount = 5
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "Gz" = (
 /turf/simulated/wall/mineral/iron,
@@ -741,7 +732,7 @@
 /obj/item/shovel{
 	pixel_x = -5
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "Kp" = (
 /obj/effect/decal/cleanable/blood,
@@ -752,9 +743,7 @@
 /area/ruin/space/powered/bar)
 "KM" = (
 /obj/effect/landmark/damageturf,
-/obj/item/stack/cable_coil{
-	amount = 1
-	},
+/obj/item/stack/cable_coil,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -767,7 +756,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "Lh" = (
 /obj/structure/table/wood,
@@ -781,7 +770,7 @@
 /area/space/nearstation)
 "Lu" = (
 /obj/effect/decal/cleanable/blood/writing,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "Ly" = (
 /obj/machinery/door_control{
@@ -820,7 +809,7 @@
 /area/ruin/space/powered/bar)
 "Nl" = (
 /obj/item/pickaxe,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "Np" = (
 /obj/item/stack/ore/bluespace_crystal/refined,
@@ -830,7 +819,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "NE" = (
 /obj/structure/closet/secure_closet/bar{
@@ -852,7 +841,7 @@
 /area/ruin/space/powered/bar)
 "Ow" = (
 /obj/item/stack/ore/glass/basalt,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "Pr" = (
 /obj/structure/chair/stool,
@@ -871,7 +860,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/space/powered)
 "QU" = (
 /obj/effect/landmark/damageturf,
@@ -901,7 +890,7 @@
 /area/ruin/space/powered/bar)
 "UA" = (
 /obj/structure/glowshroom,
-/turf/simulated/floor/plating/asteroid/ancient,
+/turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "UO" = (
 /obj/effect/spawner/random_spawners/cobweb_right_rare,
@@ -930,9 +919,7 @@
 /obj/machinery/light_construct/small{
 	dir = 8
 	},
-/obj/item/stack/cable_coil{
-	amount = 1
-	},
+/obj/item/stack/cable_coil,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -2194,7 +2181,7 @@ bb
 bb
 am
 ab
-oJ
+ac
 ab
 ab
 ab
@@ -2246,7 +2233,7 @@ bk
 bk
 QY
 gy
-oJ
+ac
 mu
 ab
 ab
@@ -2352,7 +2339,7 @@ am
 ab
 Gv
 ab
-oJ
+ac
 ab
 ab
 ad
@@ -2378,7 +2365,7 @@ ab
 ab
 ab
 ee
-oJ
+ac
 ab
 am
 av
@@ -2403,7 +2390,7 @@ bk
 am
 ab
 ab
-eC
+Np
 ab
 ab
 ad
@@ -2454,7 +2441,7 @@ bk
 qZ
 am
 ab
-oJ
+ac
 ab
 ab
 ad
@@ -2483,7 +2470,7 @@ ac
 ab
 ab
 ab
-oJ
+ac
 QY
 as
 as

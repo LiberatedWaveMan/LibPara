@@ -141,12 +141,6 @@ GLOBAL_DATUM_INIT(global_prizes, /datum/prizes, new())
 	typepath = /obj/item/clothing/gloves/ring/shadow
 	cost = 40
 
-/datum/prize_item/unum
-	name = "Deck of UNUM! Cards"
-	desc = "Everyone's favorite card game!"
-	typepath = /obj/item/deck/unum
-	cost = 45
-
 /datum/prize_item/double_tiny_cards
 	name = "Double Deck of Tiny Cards"
 	desc = "Anyone fancy a tiny game of 108-card Pickup?"
@@ -392,7 +386,7 @@ GLOBAL_DATUM_INIT(global_prizes, /datum/prizes, new())
 /datum/prize_item/chainsaw
 	name = "Toy Chainsaw"
 	desc = "A full-scale model chainsaw, based on that massacre in Space Texas."
-	typepath = /obj/item/toy/chainsaw
+	typepath = /obj/item/twohanded/toy/chainsaw
 	cost = 200
 
 /datum/prize_item/bike

@@ -12,7 +12,6 @@ const HeadRoles = [
   'Chief Medical Officer',
   'Research Director',
   'Head of Personnel',
-  'Quartermaster',
 ];
 
 // Head colour check. Abbreviated to save on 80 char
@@ -22,15 +21,22 @@ const HCC = (role) => {
     return 'green';
   }
 
+  // Return yellow if its the qm
+  if (role === 'Quartermaster') {
+    return 'yellow';
+  }
+
   // Return orange if its a regular person
   return 'orange';
 };
 
 // Head bold check. Abbreviated to save on 80 char
 const HBC = (role) => {
-  // Return true if they are a head
-  if (HeadRoles.indexOf(role) !== -1) {
+  // Return true if they are a head, or a QM
+  if (HeadRoles.indexOf(role) !== -1 || role === 'Quartermaster') {
     return true;
+  } else {
+    return false;
   }
 };
 

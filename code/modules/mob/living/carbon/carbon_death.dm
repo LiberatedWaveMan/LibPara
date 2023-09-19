@@ -4,9 +4,6 @@
 	if(!.)
 		return FALSE
 
-	if(!gibbed)
-		apply_status_effect(STATUS_EFFECT_REVIVABLE)
-
 	if(reagents)
 		reagents.death_metabolize(src)
 

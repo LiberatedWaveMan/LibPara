@@ -125,9 +125,12 @@
 /obj/item/wirerod/attackby(obj/item/I, mob/user, params)
 	..()
 	if(istype(I, /obj/item/shard))
-		var/obj/item/spear/S = new /obj/item/spear
+		var/obj/item/twohanded/spear/S = new /obj/item/twohanded/spear
 		if(istype(I, /obj/item/shard/plasma))
-			S.add_plasmaglass()
+			S.force_wielded = 19
+			S.force_unwielded = 11
+			S.throwforce = 21
+			S.icon_prefix = "spearplasma"
 			S.update_icon()
 		if(!remove_item_from_storage(user))
 			user.unEquip(src)
@@ -280,7 +283,7 @@
 		return
 	if(!(target.status_flags & CANPUSH))
 		// No throwing mobs specifically flagged as immune to being pushed.
-		// Covers: revenant, hostile/blob/*, most borgs, juggernauts, hivebot/tele, shades, bots, alien queens, hostile/syndicate/melee, hostile/asteroid
+		// Covers: revenant, hostile/blob/*, most borgs, juggernauts, hivebot/tele, spaceworms, shades, bots, alien queens, hostile/syndicate/melee, hostile/asteroid
 		return
 	if(target.move_resist > MOVE_RESIST_DEFAULT)
 		// No throwing mobs that have higher than normal move_resist.
