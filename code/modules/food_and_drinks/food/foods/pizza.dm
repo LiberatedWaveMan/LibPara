@@ -318,13 +318,6 @@
 		return
 	..()
 
-/obj/item/pizzabox/AltClick(mob/user)
-	..()
-	if(length(boxes) || !Adjacent(user))
-		return
-	open = !open 
-	update_appearance(UPDATE_DESC|UPDATE_ICON)
-
 /obj/item/pizzabox/attack_self(mob/user)
 	if(boxes.len > 0)
 		return
@@ -445,9 +438,6 @@
 	if(primed)
 		return
 	return ..()
-
-/obj/item/pizzabox/pizza_bomb/AltClick(mob/user)
-	attack_self(user)
 
 /obj/item/pizzabox/pizza_bomb/attack_self(mob/user)
 	if(disarmed)

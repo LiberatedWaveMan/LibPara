@@ -4,6 +4,7 @@
 	description = "A fine dust containing spider eggs. Oh gosh."
 	reagent_state = SOLID
 	color = "#FFFFFF"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/spider_eggs/on_mob_life(mob/living/M)
@@ -18,6 +19,7 @@
 	id = "nanomachines"
 	description = "Microscopic construction robots."
 	color = "#535E66" // rgb: 83, 94, 102
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/nanomachines/on_mob_life(mob/living/carbon/M)
@@ -30,6 +32,7 @@
 	id = "xenomicrobes"
 	description = "Microbes with an entirely alien cellular structure."
 	color = "#535E66" // rgb: 83, 94, 102
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/xenomicrobes/on_mob_life(mob/living/carbon/M)
@@ -42,6 +45,7 @@
 	id = "fungalspores"
 	description = "Active fungal spores."
 	color = "#92D17D" // rgb: 146, 209, 125
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/fungalspores/on_mob_life(mob/living/carbon/M)
@@ -55,6 +59,7 @@
 	description = "Rapid chemical decomposition has warped these crystals into twisted spikes."
 	reagent_state = SOLID
 	color = "#FA0000" // rgb: 250, 0, 0
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/jagged_crystals/on_mob_life(mob/living/carbon/M)
@@ -67,6 +72,7 @@
 	description = "A nasty bacteria found in spoiled food."
 	reagent_state = LIQUID
 	color = "#1E4600"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/salmonella/on_mob_life(mob/living/carbon/M)
@@ -79,6 +85,7 @@
 	description = "Liquid gibbis."
 	reagent_state = LIQUID
 	color = "#FF0000"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/gibbis/on_mob_life(mob/living/carbon/M)
@@ -92,6 +99,7 @@
 	description = "A disease-causing agent that is neither bacterial nor fungal nor viral and contains no genetic material."
 	reagent_state = LIQUID
 	color = "#FFFFFF"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/prions/on_mob_life(mob/living/carbon/M)
@@ -105,6 +113,7 @@
 	description = "Hook me up to an IV of that sweet, sweet stuff!"
 	reagent_state = LIQUID
 	color = "#F7E6B1"
+	can_synth = FALSE
 	taste_description = "bacon"
 
 /datum/reagent/bacon_grease/on_mob_life(mob/living/carbon/M)
@@ -118,6 +127,7 @@
 	description = "Aww, gross! These things can't be good for your heart. They're gunna eat it!"
 	reagent_state = SOLID
 	color = "#925D6C"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/heartworms/on_mob_life(mob/living/carbon/M)
@@ -136,6 +146,7 @@
 	description = "A guaranteed heart-stopper!"
 	reagent_state = LIQUID
 	color = "#AB1CCF"
+	can_synth = FALSE
 	taste_mult = 0
 
 /datum/reagent/concentrated_initro/on_mob_life(mob/living/M)

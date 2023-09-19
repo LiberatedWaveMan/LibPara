@@ -30,11 +30,6 @@
 	. = ..()
 	. += "<span class='notice'>Click dragging someone to a bed will buckle them in. Functions just like a chair except you can walk over them.</span>"
 
-/obj/structure/bed/attack_hand(mob/user)
-	if(user.Move_Pulled(src))
-		return
-	return ..()
-
 /obj/structure/bed/psych
 	name = "psych bed"
 	desc = "For prime comfort during psychiatric evaluations."
@@ -141,6 +136,7 @@
 	resistance_flags = NONE
 	anchored = FALSE
 	comfort = 1
+	pull_speed = 0
 	var/icon_up = "up"
 	var/icon_down = "down"
 	var/folded = /obj/item/roller

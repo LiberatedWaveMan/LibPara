@@ -6,7 +6,6 @@
 	icon_state = "secdrobe"
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Beat perps in style!", "It's red so you can't see the blood!", "You have the right to be fashionable!", "Now you can be the fashion police you always wanted to be!")
 	vend_reply = "Thank you for using the SecDrobe!"
 	products = list(/obj/item/clothing/under/rank/security/officer/corporate = 4,
@@ -80,7 +79,6 @@
 	icon_state = "detdrobe"
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Apply your brilliant deductive methods in style!", "They already smell of cigarettes!")
 	vend_reply = "Thank you for using the DetDrobe!"
 	products = list(/obj/item/clothing/under/rank/security/detective = 2,
@@ -135,7 +133,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "medidrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Make those blood stains look fashionable!")
 	vend_reply = "Thank you for using the MediDrobe!"
 	products = list(/obj/item/clothing/under/rank/medical/doctor = 3,
@@ -200,7 +197,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "virodrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Viruses getting you down? Nothing a change of clothes can't fix!", "Upgrade to sterilized clothing today!")
 	vend_reply = "Thank you for using the ViroDrobe!"
 	products = list(/obj/item/clothing/under/rank/medical/virologist = 2,
@@ -237,7 +233,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "chemdrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Our clothes are 0.5% more resistant to acid spills! Get yours now!")
 	vend_reply = "Thank you for using the ChemDrobe!"
 	products = list(/obj/item/clothing/under/rank/medical/chemist = 2,
@@ -274,7 +269,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "genedrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = "Perfect for the mad scientist in you!"
 	vend_reply = "Thank you for using the GeneDrobe!"
 	products = list(/obj/item/clothing/under/rank/rnd/geneticist = 3,
@@ -304,7 +298,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "scidrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Longing for the smell of plasma burnt flesh?", "Buy your science clothing now!", "Made with 10% Auxetics, so you don't have to worry about losing your arm!")
 	vend_reply = "Thank you for using the SciDrobe!"
 	products = list(/obj/item/clothing/under/rank/rnd/scientist = 6,
@@ -342,15 +335,12 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "robodrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("You turn me TRUE, use defines!","0110001101101100011011110111010001101000011001010111001101101000011001010111001001100101")
 	vend_reply = "Thank you for using the RoboDrobe!"
 	products = list(/obj/item/clothing/under/rank/rnd/roboticist = 3,
 					/obj/item/clothing/under/rank/rnd/roboticist/skirt = 3,
 					/obj/item/clothing/suit/storage/labcoat/roboblack = 3,
 					/obj/item/clothing/suit/storage/labcoat/robowhite = 3,
-					/obj/item/clothing/head/beret/roboblack = 3,
-					/obj/item/clothing/head/beret/robowhite = 3,
 					/obj/item/clothing/head/soft/black = 3,
 					/obj/item/clothing/gloves/fingerless = 3,
 					/obj/item/clothing/shoes/laceup = 3,
@@ -361,8 +351,6 @@
 					/obj/item/clothing/under/rank/rnd/roboticist/skirt = 50,
 					/obj/item/clothing/suit/storage/labcoat/roboblack = 75,
 					/obj/item/clothing/suit/storage/labcoat/robowhite = 75,
-					/obj/item/clothing/head/beret/roboblack = 20,
-					/obj/item/clothing/head/beret/robowhite = 20,
 					/obj/item/clothing/head/soft/black = 20,
 					/obj/item/clothing/gloves/fingerless = 20,
 					/obj/item/clothing/shoes/laceup = 30,
@@ -377,7 +365,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "engidrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Guaranteed to protect your feet from industrial accidents!", "Afraid of radiation? Then wear yellow!")
 	vend_reply = "Thank you for using the EngiDrobe!"
 	products = list(/obj/item/clothing/under/rank/engineering/engineer = 6,
@@ -425,7 +412,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "atmosdrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Guaranteed to protect your feet from atmospheric accidents!", "Get your inflammable clothing right here!")
 	vend_reply = "Thank you for using the AtmosDrobe!"
 	products = list(/obj/item/clothing/under/rank/engineering/atmospheric_technician  = 6,
@@ -474,7 +460,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "cargodrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Upgraded Assistant Style! Pick yours today!", "These shorts are comfy and easy to wear, get yours now!")
 	vend_reply = "Thank you for using the CargoDrobe!"
 	products = list(/obj/item/clothing/under/rank/cargo/tech = 6,
@@ -510,7 +495,6 @@
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
 	icon_addon = "chefdrobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Our clothes are guaranteed to protect you from food splatters!", "Comfortable enough for a CQC practice!")
 	vend_reply = "Thank you for using the ChefDrobe!"
 	products = list(/obj/item/clothing/under/rank/civilian/chef = 2,
@@ -546,7 +530,6 @@
 	icon_state = "bardrobe"
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Guaranteed to prevent stains from spilled drinks!")
 	vend_reply = "Thank you for using the BarDrobe!"
 	products = list(/obj/item/clothing/under/rank/civilian/bartender = 2,
@@ -578,7 +561,6 @@
 	icon_state = "hydrobe"
 	icon_lightmask = "base_drobe"
 	icon_panel = "drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Do you love soil? Then buy our clothes!", "Get outfits to match your green thumb here!")
 	vend_reply = "Thank you for using the HydroDrobe!"
 	products = list(/obj/item/clothing/under/rank/civilian/hydroponics = 3,
@@ -614,7 +596,6 @@
 	icon_panel = "drobe"
 	icon_broken = "base_drobe"
 	icon_off = "base_drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("Come and get your janitorial clothing, now endorsed by janitors everywhere!")
 	vend_reply = "Thank you for using the JaniDrobe!"
 	products = list(/obj/item/clothing/under/rank/civilian/janitor = 3,
@@ -634,7 +615,6 @@
 	icon_panel = "drobe"
 	icon_broken = "base_drobe"
 	icon_off = "base_drobe"
-	category = VENDOR_TYPE_CLOTHING
 	ads_list = list("OBJECTION! Get the rule of law for yourself!")
 	vend_reply = "Thank you for using the LawDrobe!"
 	products = list(/obj/item/clothing/under/rank/civilian/internalaffairs = 2,

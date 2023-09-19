@@ -158,6 +158,7 @@
 	name = "penetrator round"
 	damage = 60
 	forcedodge = -1
+	dismemberment = 0
 	weaken = 0
 
 //toy magazine

@@ -189,7 +189,6 @@
 	item_state = "sec-case"
 	flags = CONDUCT
 	hitsound = "swing_hit"
-	use_sound = 'sound/effects/briefcase.ogg'
 	force = 8
 	throw_speed = 2
 	throw_range = 4
@@ -202,7 +201,7 @@
 	if(loc == user && locked)
 		to_chat(usr, "<span class='warning'>[src] is locked and cannot be opened!</span>")
 	else if((loc == user) && !locked)
-		playsound(loc, 'sound/effects/briefcase.ogg', 50, TRUE, -5)
+		playsound(loc, "rustle", 50, 1, -5)
 		if(user.s_active)
 			user.s_active.close(user) //Close and re-open
 		show_to(user)

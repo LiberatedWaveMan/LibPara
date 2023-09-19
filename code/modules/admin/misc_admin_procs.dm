@@ -643,9 +643,9 @@ GLOBAL_VAR_INIT(nologevent, 0)
 	if(!SSticker.mode || !istype(M) || !M.mind)
 		return FALSE
 
-	if(M.mind.has_antag_datum(/datum/antagonist/rev/head))
+	if(M.mind in SSticker.mode.head_revolutionaries)
 		antag_list += "Head Rev"
-	if(M.mind.has_antag_datum(/datum/antagonist/rev, FALSE))
+	if(M.mind in SSticker.mode.revolutionaries)
 		antag_list += "Revolutionary"
 	if(M.mind in SSticker.mode.cult)
 		antag_list += "Cultist"

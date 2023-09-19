@@ -144,7 +144,7 @@
 	)
 
 /obj/item/clothing/glasses/hud/security/sunglasses/prescription
-	prescription = TRUE
+	prescription = 1
 
 /obj/item/clothing/glasses/hud/hydroponic
 	name = "hydroponic HUD"

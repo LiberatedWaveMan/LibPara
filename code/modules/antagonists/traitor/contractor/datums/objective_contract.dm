@@ -91,7 +91,7 @@
 			"Security Checkpoint",
 			"Technical Storage",
 			"Teleporter",
-			"Science Toxins Storage",
+			"Toxins Storage",
 			"Vacant Office",
 			"Research Testing Lab",
 			"Xenobiology Lab",

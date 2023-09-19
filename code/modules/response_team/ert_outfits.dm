@@ -36,7 +36,7 @@
 	rt_job = "Emergency Response Team Leader"
 	rt_mob_job = "ERT Commander"
 
-	uniform = /obj/item/clothing/under/rank/centcom/ert/commander
+	uniform = /obj/item/clothing/under/rank/centcom/sensor
 	back = /obj/item/storage/backpack/ert/commander
 	l_ear = /obj/item/radio/headset/ert/alt/commander
 
@@ -125,7 +125,7 @@
 	rt_assignment = "Emergency Response Team Officer"
 	rt_job = "Emergency Response Team Officer"
 	rt_mob_job = "ERT Security"
-	uniform = /obj/item/clothing/under/rank/centcom/ert/security
+	uniform = /obj/item/clothing/under/rank/security/officer/sensor
 	back = /obj/item/storage/backpack/ert/security
 	belt = /obj/item/storage/belt/security/response_team
 	pda = /obj/item/pda/heads/ert/security
@@ -215,7 +215,7 @@
 	rt_job = "Emergency Response Team Engineer"
 	rt_mob_job = "ERT Engineering"
 	back = /obj/item/storage/backpack/ert/engineer
-	uniform = /obj/item/clothing/under/rank/centcom/ert/engineer
+	uniform = /obj/item/clothing/under/rank/engineering/engineer
 	belt = /obj/item/storage/belt/utility/full/multitool
 	pda = /obj/item/pda/heads/ert/engineering
 	id = /obj/item/card/id/ert/engineering
@@ -303,7 +303,7 @@
 	rt_assignment = "Emergency Response Team Medic"
 	rt_job = "Emergency Response Team Medic"
 	rt_mob_job = "ERT Medical"
-	uniform = /obj/item/clothing/under/rank/centcom/ert/medical
+	uniform = /obj/item/clothing/under/rank/medical/doctor
 	back = /obj/item/storage/backpack/ert/medical
 	pda = /obj/item/pda/heads/ert/medical
 	id = /obj/item/card/id/ert/medic
@@ -412,7 +412,7 @@
 	rt_assignment = "Emergency Response Team Inquisitor"
 	rt_job = "Emergency Response Team Inquisitor"
 	rt_mob_job = "ERT Paranormal"
-	uniform = /obj/item/clothing/under/rank/centcom/ert/chaplain
+	uniform = /obj/item/clothing/under/rank/civilian/chaplain
 	back = /obj/item/storage/backpack/ert/security
 	shoes = /obj/item/clothing/shoes/combat
 	l_ear = /obj/item/radio/headset/ert/alt
@@ -485,7 +485,7 @@
 	rt_assignment = "Emergency Response Team Janitor"
 	rt_job = "Emergency Response Team Janitor"
 	rt_mob_job = "ERT Janitor"
-	uniform = /obj/item/clothing/under/rank/centcom/ert/janitor
+	uniform = /obj/item/clothing/under/color/purple/sensor
 	back = /obj/item/storage/backpack/ert/janitor
 	belt = /obj/item/storage/belt/janitor/full
 	shoes = /obj/item/clothing/shoes/galoshes
@@ -497,7 +497,7 @@
 		/obj/item/grenade/chem_grenade/antiweed = 2,
 		/obj/item/lightreplacer = 1,
 		/obj/item/storage/bag/trash = 1,
-		/obj/item/push_broom,
+		/obj/item/twohanded/push_broom,
 		/obj/item/storage/box/lights/mixed = 1,
 		/obj/item/melee/flyswatter = 1)
 

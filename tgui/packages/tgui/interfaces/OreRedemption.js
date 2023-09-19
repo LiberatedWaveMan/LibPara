@@ -68,17 +68,12 @@ const IdDisk = (properties, context) => {
           )}
         </LabeledList.Item>
         {id && (
-          <LabeledList.Item label="Current Mining Points">
+          <LabeledList.Item label="Collected points">
             <Box bold>{formatPoints(id.points)}</Box>
           </LabeledList.Item>
         )}
-        {id && (
-          <LabeledList.Item label="Total Mining Points">
-            <Box bold>{formatPoints(id.total_points)}</Box>
-          </LabeledList.Item>
-        )}
         <LabeledList.Item
-          label="Unclaimed Points"
+          label="Unclaimed points"
           color={points > 0 ? 'good' : 'grey'}
           bold={points > 0 && 'good'}
         >
@@ -230,8 +225,8 @@ const SheetLine = (properties, context) => {
           <Flex.Item
             basis="20%"
             textAlign="center"
-            color={ore.amount >= 1 ? 'good' : 'gray'}
-            bold={ore.amount >= 1}
+            color={ore.amount > 0 ? 'good' : 'gray'}
+            bold={ore.amount > 0}
             align="center"
           >
             {ore.amount.toLocaleString('en-US')}
@@ -296,7 +291,7 @@ const AlloyLine = (properties, context) => {
                 <Flex.Item
                   basis="35%"
                   textAlign="middle"
-                  color={ore.amount >= 1 ? 'good' : 'gray'}
+                  color={ore.amount > 0 ? 'good' : 'gray'}
                   align="center"
                 >
                   {ore.description}
@@ -304,8 +299,8 @@ const AlloyLine = (properties, context) => {
               <Flex.Item
                 basis="10%"
                 textAlign="center"
-                color={ore.amount >= 1 ? 'good' : 'gray'}
-                bold={ore.amount >= 1}
+                color={ore.amount > 0 ? 'good' : 'gray'}
+                bold={ore.amount > 0}
                 align="center"
                >
                 {ore.amount.toLocaleString('en-US')}

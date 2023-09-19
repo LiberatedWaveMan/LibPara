@@ -20,33 +20,40 @@
 
 /proc/findEventArea() //Here's a nice proc to use to find an area for your event to land in!
 	var/list/safe_areas = typecacheof(list(
-		/area/station/turret_protected/ai,
-		/area/station/turret_protected/ai_upload,
-		/area/station/engineering,
-		/area/holodeck,
-		/area/shuttle,
-		/area/station/maintenance,
-		/area/station/science/toxins/test,
-		/area/station/public/sleep))
+	/area/turret_protected/ai,
+	/area/turret_protected/ai_upload,
+	/area/engine,
+	/area/solar,
+	/area/holodeck,
+	/area/shuttle,
+	/area/maintenance,
+	/area/toxins/test_area,
+	/area/crew_quarters/sleep))
 
-	//These are needed because /area/station/engineering has to be removed from the list, but we still want these areas to get fucked up.
-	var/list/allowed_areas = list(
-		/area/station/engineering/break_room,
-		/area/station/engineering/equipmentstorage,
-		/area/station/engineering/controlroom)
+	//These are needed because /area/engine has to be removed from the list, but we still want these areas to get fucked up.
+	var/list/danger_areas = list(
+	/area/engine/break_room,
+	/area/engine/equipmentstorage,
+	/area/engine/chiefs_office,
+	/area/engine/controlroom)
 
-	var/list/remove_these_areas = safe_areas - allowed_areas
-	var/list/possible_areas = typecache_filter_list_reverse(SSmapping.existing_station_areas, remove_these_areas)
+	var/list/allowed_areas = list()
+
+	allowed_areas = typecacheof(GLOB.the_station_areas) - safe_areas + danger_areas
+	var/list/possible_areas = typecache_filter_list(SSmapping.existing_station_areas, allowed_areas)
 
 	return pick(possible_areas)
 
 /proc/findUnrestrictedEventArea() //Does almost the same as findEventArea() but hits a few more areas including maintenance and the AI sat, and also returns a list of all the areas, instead of just one area
 	var/list/safe_areas = typecacheof(list(
-	/area/station/engineering/solar,
-	/area/station/science/toxins/test,
-	/area/station/public/sleep))
+	/area/solar,
+	/area/toxins/test_area,
+	/area/crew_quarters/sleep))
 
-	var/list/possible_areas = typecache_filter_list_reverse(SSmapping.existing_station_areas, safe_areas)
+	var/list/allowed_areas = list()
+
+	allowed_areas = typecacheof(GLOB.the_station_areas) - safe_areas
+	var/list/possible_areas = typecache_filter_list(SSmapping.existing_station_areas, allowed_areas)
 
 	return possible_areas
 

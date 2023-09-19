@@ -43,10 +43,6 @@
 		to_chat(user, "<span class='warning'>It appears to be broken.</span>")
 		return
 
-	if(istype(W, /obj/item/card/id/guest))
-		to_chat(user, "<span class='warning'>Invalid identification card.</span>")
-		return
-
 	var/obj/item/card/id/I = W
 	if(!I || !I.registered_name)
 		return
@@ -71,4 +67,4 @@
 			registered_name = I.registered_name
 			desc = "Owned by [I.registered_name]."
 	else
-		to_chat(user, "<span class='warning'>Access denied.</span>")
+		to_chat(user, "<span class='warning'>Access Denied</span>")
